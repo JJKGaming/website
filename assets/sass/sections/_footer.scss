@@ -1,0 +1,131 @@
+/*--------------------------------------------------
+    ##Footer
+---------------------------------------------------*/
+.footer-area {
+	position: relative;
+	padding-top: 120px;
+	.single-subscribe-inner {
+		input {
+			height: 55px;
+			background: rgba(94, 53, 177, 0.5);
+			border: 0;
+			border-radius: 28px;
+			color: #fff;
+			padding: 0 158px 0 20px;
+			font-weight: normal;
+			&::placeholder {
+				color: #fff;
+			}
+		}
+		.btn {
+			height: 55px;
+			line-height: 55px;
+			border-radius: 28px;
+			top: 0;
+			right: 0;
+		}
+	}
+	.social-media {
+		li {
+			a {
+				width: 42px;
+				height: 42px;
+				line-height: 42px;
+				color: #fff;
+				background: transparent;
+				border: 1px solid #fff;
+				&:hover {
+					background: linear-gradient(#FF8D35,#F01111);
+					border-color: transparent;
+				}
+			}
+		}
+	}
+ 	.widget {
+ 		position: relative;
+ 		z-index: 2;
+ 		margin-bottom: 70px;
+ 	}
+	.widget-title {
+		margin-bottom: 29px;
+		position: relative;
+		color: rgba(255, 255, 255, 0.9);
+		&:after {
+	        content: '';
+	        position: absolute;
+	        left: 0;
+	        bottom: -6px;
+	        height: 3px;
+	        width: 60px;
+	        background: var(--main-color-2);
+	    }
+	}
+	.widget_about {
+		.thumb {
+			margin-bottom: 20px;
+		}
+		.details {
+			p {
+				margin-bottom: 0;
+				color: rgba(255, 255, 255, 0.9);
+				i,
+				svg {
+					margin-right: 10px;
+				}
+			}
+			.social-media {
+				margin-top: 15px;
+			}
+		}
+	}
+	.widget_contact {
+		ul {
+			padding: 0;
+			li {
+	    		color: rgba(255, 255, 255, 0.9);
+				i {
+					color: rgba(255, 255, 255, 0.9);
+				}
+			}
+		}
+	}
+	.widget_nav_menu {
+		ul {
+			margin: 0;
+			padding: 0;
+			li {
+				list-style: none;
+				margin-bottom: 7px;
+				position: relative;
+				color: rgba(255, 255, 255, 0.9);
+				&:hover {
+					&:after {
+						background: var(--main-color);
+					}
+				}
+			}
+		}
+	}
+}
+
+.footer-middle {
+	background-size: cover;
+	padding-bottom: 20px;
+}
+.footer-bottom {
+	padding: 23px 0;
+	position: relative;
+	z-index: 2;
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 15px;
+	p {
+		margin-bottom: 0;
+		color: rgba(255, 255, 255, 0.9);
+		span {
+			color: var(--main-color);
+		}
+	}
+}
+.footer-area-2 {
+	padding-top: 95px;
+}

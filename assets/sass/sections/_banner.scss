@@ -1,0 +1,115 @@
+/*----------------------------------------------
+    ## Banner
+----------------------------------------------*/
+.banner-1 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	.banner-inner {
+		padding: 270px 0 170px;
+	}
+}
+.banner-2 {
+	background: linear-gradient(#330592, #1A0349);
+	.banner-inner {
+		padding: 230px 0;
+	}	
+	.thumb {
+		margin-left: -60px;
+		margin-right: -50px;
+	}
+}
+.banner-slider {
+	.owl-nav {
+		button {
+			height: 60px;
+			width: 60px;
+			position: absolute;
+			top: 50%;
+			border: 0;
+			border-radius: 50%;
+			background: var(--main-color);
+			color: #fff;
+			font-size: 30px;
+			margin-top: -43px;
+			cursor: pointer;
+			&.owl-prev {
+				transform: translate(-110px, 0%);
+				left: 0;
+			}
+			&.owl-next {
+				transform: translate(110px, 0%);
+				right: 0;
+			}
+		}
+	}
+}
+.banner-inner {
+	position: relative;
+	padding: 250px 0;
+	.sub-title {
+		position: relative;
+		display: inline-block;
+		margin-bottom: 25px;
+		font-weight: 400;
+		color: #F3F3F3;
+		&.color-purple {
+			color: #BE63F9;
+			&:after {
+				background: #BE63F9;
+			}
+		}
+	}
+	.title {
+		color: #fff;
+		span {
+			color: var(--main-color);
+		}
+	}
+	p {
+		margin-top: 25px;
+		color: #fff;
+	}
+	.btn-wrap {
+		margin-top: 50px;
+	}
+	.b-animate-1 {
+    	animation: 1.5s 0.2s fadeInLeft both;
+	}
+	.b-animate-2 {
+		animation: 1.5s 0.4s fadeInLeft both;
+	}
+	.b-animate-3 {
+		animation: 1.5s 0.6s fadeInLeft both;
+	}
+	.b-animate-4 {
+		animation: 1.5s 0.8s fadeInLeft both;
+	}
+	.b-animate-5 {
+		animation: 1.5s 0.9s fadeInLeft both;
+	}
+	.animate-img-1 {
+		position: absolute;
+	    left: -74px;
+    	top: -68px;
+	}
+
+	&.style-white {
+		.title {
+			color: #fff;
+		}
+		.content {
+			color: #fff;
+		}
+	}
+}
+.b-animate-thumb {
+	animation: 1.5s 0.4s fadeInRight both;
+	position: relative;
+	.animate-img-1 {
+		position: absolute;
+	    right: 140px;
+	    bottom: -26px;
+	    z-index: -2;
+	}
+}
